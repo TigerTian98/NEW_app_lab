@@ -1,0 +1,108 @@
+body, html {
+	color: black;
+	font-family: georgia;
+	font-size: 4.5vmin;
+	line-height: 5vmin;
+	margin: 0;
+	overflow: hidden;
+	position: absolute;
+	user-select: none;
+}
+
+.button {
+	border-radius: 2vh;
+	color: black;
+	cursor: pointer;
+	font-weight: bold;
+	left: 5%;
+	line-height: 6vmin;
+	position: relative;
+	text-align: center;
+	width: 90%;
+}
+
+.button:hover {
+	box-shadow: 0 0 2vh black inset;
+}
+
+/*Page 1 buttons*/
+
+#submit {
+	top: 2.5vh;
+}
+
+#mngsms {
+
+}
+
+/*Page 2 buttons*/
+
+#back {
+	top: 5vh;
+}
+
+#clear {
+	top: 5vh;
+}
+
+/*------------------------------*/
+
+.container {
+	background-color: #FFD428;
+	border-radius: 2vh;
+	box-shadow: 0 0 2vh black;
+	left: calc(50vw - 45vmin);
+	opacity: 0.95;
+	position: absolute;
+	text-align: center;
+	width: 90vmin;
+}
+
+/*Page 1 containers*/
+
+#header {
+	height: 20vh;
+	top: 5vh;
+}
+
+#ctn_sms {
+	box-shadow: 
+	color: #FFD428;
+	display: block;
+	height: 40vh;
+	top: 30vh;
+}
+
+#ctn_mngsms {
+	height: 20vh;
+	top: 75vh;
+}
+
+/*Page 2 containers*/
+
+#ctn_bk {
+	height: 15vh;
+	top: 5vh;
+}
+
+#statistics {
+	height: 50vh;
+	top: 25vh;
+}
+
+#ctn_clear {
+	height: 15vh;
+	top: 80vh;
+}
+
+/*------------------------------*/
+
+#img_bg {
+	width: 100vmax;
+}
+
+/*------------------------------*/
+
+#page2 {
+	display: none;
+}

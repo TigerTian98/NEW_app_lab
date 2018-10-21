@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Coffeetawk Prototype
+	</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+
+	<img id="img_bg" src="images/bg1.jpg">
+
+	<!-- - - - - - - - - - - - - - - - -->
+
+	<div id="page1">
+		<div class="container" id="header">
+			<br>
+			Welcome to clothes-color/membership correlation calculator.
+		</div>
+		
+		<div class="container" id="ctn_sms">
+			<br>
+			<div>
+				1. Choose color
+				<form>
+					<input checked name="color" type="radio" value="1"> Dull color
+					<input name="color" type="radio" value="0"> Bright color
+				</form>
+			</div>
+			<br>
+			<div>
+				2. Membership?
+				<form>
+					<input checked name="membership" type="radio" value=1> Yes
+					<input name="membership" type="radio" value="0"> No
+				</form>
+				<div class="button" id="submit" onclick="submit()">
+					Submit
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="ctn_mngsms">
+			<br>
+			<div id="tt_sms">
+				Total submissions: 0
+			</div>
+			<div class="button" id="mngsms" onclick="manageSubmission()">
+				Manage Submission
+			</div>
+		</div>
+
+	</div>
+
+	<!-- - - - - - - - - - - - - - - - -->
+
+	<div id="page2">
+
+		<div class="container" id="ctn_bk">
+			<div class="button" id="back" onclick="back()">
+				Back
+			</div>
+
+
+		</div>
+
+		<div class="container" id="statistics">
+			<br>
+			Bright color: 0;
+			<br>
+			Dull color: 0;
+			<br>
+			Members: 0;
+			<br>
+			Non-members: 0
+			<br>
+		</div>
+
+		<div class="container" id="ctn_clear">
+			<div class="button" id="clear" onclick="clearAll()">
+				Clear All Submissions
+			</div>	
+		</div>
+
+	</div>
+
+	<!-- - - - - - - - - - - - - - - - -->
+
+</body>
+<script type="" src="js/script.js"></script>
+</html>
